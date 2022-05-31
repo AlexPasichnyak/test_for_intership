@@ -3,7 +3,6 @@ const url = require('url');
 const countryByCapital = require('country-json/src/country-by-capital-city.json');
 
 const PORT = process.env.PORT || 3000;
-// JSON.parse()stringify();
 
 const server = http.createServer((req, res) => {
 	
